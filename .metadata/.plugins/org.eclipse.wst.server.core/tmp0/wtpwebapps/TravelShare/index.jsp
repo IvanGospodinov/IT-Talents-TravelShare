@@ -47,9 +47,10 @@
 
 
 
-	<h1>
-		<a href="index.jsp">Travel Share</a><span id="version">v1</span>
+	<h1 id="title">
+		<a href="index.jsp" style="text-decoration:underline;">Travel Share</a>
 	</h1>
+	<div class="menu-bar">
 	<nav>
 	<ul>
 		<li><a href="index.jsp" class="current">Home</a></li>
@@ -61,7 +62,9 @@
 		<li><form id="logoutButton" action="logout" method="post">
 				<button type="submit">Logout</button></li>
 	</ul>
-	</nav> </header>
+	</nav> 
+	</div>
+	</header>
 	<div id="adbanner">
 		<div id="ad">
 
